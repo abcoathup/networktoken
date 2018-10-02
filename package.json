@@ -1,0 +1,32 @@
+{
+  "name": "networktoken",
+  "version": "1.0.0",
+  "description": "Network Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcoathup/networktoken.git"
+  },
+  "author": "ABC",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/abcoathup/networktoken/issues"
+  },
+  "homepage": "https://github.com/abcoathup/networktoken#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bn-chai": "^1.0.1",
+    "bn.js": "^4.11.8",
+    "chai": "^4.2.0",
+    "dotenv": "^6.0.0",
+    "openzeppelin-solidity": "^2.0.0-rc.2",
+    "truffle": "^5.0.0-beta.1",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.0"
+  }
+}
