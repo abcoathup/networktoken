@@ -1,5 +1,5 @@
-var NetworkToken = artifacts.require("./NetworkToken.sol");
+const NetworkToken = artifacts.require('./NetworkToken.sol')
 
 module.exports = function(deployer) {
-  deployer.deploy(NetworkToken);
-};
+  deployer.deploy(NetworkToken)
+}
