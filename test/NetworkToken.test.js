@@ -68,18 +68,6 @@ contract('NetworkToken', function([owner, anotherAccount]) {
       expect(balance).to.eq.BN(amount)
     })
 
-    it('cannot mint after minting stopped', async function() {
-      await token.finishMinting({ from })
-
-      try {
-        await token.mint(owner, amount, { from })
-        assert.fail('Expected revert not received')
-      } catch (error) {
-        //assert(error.reason === '[No reason implemented]');
-        assert(error.message.includes(''))
-      }
-    })
-
     it('cannot mint above cap', async function() {
       const tokenCap = await token.cap()
       await token.mint(owner, tokenCap, { from })
