@@ -62,6 +62,15 @@ module.exports = {
       // websockets: true        // Enable EventEmitter interface for web3 (default: false)
     },
 
+    test: {
+      host: 'localhost',
+      port: 9545,
+      network_id: '*',
+      gas: 6.5e6,
+      gasPrice: 5e9,
+      websockets: true
+    },
+
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     ropsten: {
