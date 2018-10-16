@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.541" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2018-10-16T07:21:32" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Contract: NetworkToken" timestamp="2018-10-16T07:21:32" tests="0" file="C:\Users\abcoathup\Projects\networktoken\test\NetworkToken.test.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="token details" timestamp="2018-10-16T07:21:33" tests="6" file="C:\Users\abcoathup\Projects\networktoken\test\NetworkToken.test.js" failures="0" time="1.107">
+    <testcase name="Contract: NetworkToken token details has a name" time="0.14" classname="has a name">
+    </testcase>
+    <testcase name="Contract: NetworkToken token details has a symbol" time="0.125" classname="has a symbol">
+    </testcase>
+    <testcase name="Contract: NetworkToken token details has 18 decimals" time="0.094" classname="has 18 decimals">
+    </testcase>
+    <testcase name="Contract: NetworkToken token details has a 0 total supply" time="0.109" classname="has a 0 total supply">
+    </testcase>
+    <testcase name="Contract: NetworkToken token details has a 0 owner supply" time="0.546" classname="has a 0 owner supply">
+    </testcase>
+    <testcase name="Contract: NetworkToken token details has the cap set" time="0.093" classname="has the cap set">
+    </testcase>
+  </testsuite>
+  <testsuite name="token minting" timestamp="2018-10-16T07:23:04" tests="3" file="C:\Users\abcoathup\Projects\networktoken\test\NetworkToken.test.js" failures="0" time="1.434">
+    <testcase name="Contract: NetworkToken token minting can mint to owner" time="0.483" classname="can mint to owner">
+    </testcase>
+    <testcase name="Contract: NetworkToken token minting can mint to another account" time="0.374" classname="can mint to another account">
+    </testcase>
+    <testcase name="Contract: NetworkToken token minting cannot mint above cap" time="0.577" classname="cannot mint above cap">
+    </testcase>
+  </testsuite>
+</testsuites>
