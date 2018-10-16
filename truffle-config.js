@@ -83,7 +83,12 @@ module.exports = {
 
   // Set default mocha options here, use special reporters etc.
   mocha: {
-    // timeout: 100000
+    reporter: 'mocha-multi-reporters',
+    useColors: true,
+    enableTimeouts: false,
+    reporterOptions: {
+      configFile: './mocha-smart-contracts-config.json'
+    }
   },
 
   // Configure your compilers
