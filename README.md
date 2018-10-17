@@ -1,4 +1,7 @@
 # Network Token
+
+[![Build Status](https://travis-ci.org/abcoathup/networktoken.svg?branch=master)](https://travis-ci.org/abcoathup/networktoken)
+
 This repository contains the Network Token
 
 ## Prerequisites
