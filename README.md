@@ -1,6 +1,7 @@
 # Network Token
 
-[![Build Status](https://travis-ci.org/abcoathup/networktoken.svg?branch=master)](https://travis-ci.org/abcoathup/networktoken)
+[![Build Status](https://img.shields.io/travis/abcoathup/networktoken.svg?branch=master&style=flat-square)](https://travis-ci.org/abcoathup/networktoken)
+
 
 This repository contains the Network Token
 
