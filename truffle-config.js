@@ -82,6 +82,12 @@ module.exports = {
       // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     },
 
+    sokol: {
+      // provider: () => new HDWalletProvider(mnemonic, `https://sokol.poa.network`),
+      // network_id: 77,       // Sokol's id
+      // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    },
+
     // Useful for private networks
     private: {
       // provider: () => new HDWalletProvider(mnemonic, `https://network.io`),
