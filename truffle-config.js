@@ -21,9 +21,10 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
+require('dotenv').config();
 
-// const HDWallet = require('truffle-hdwallet-provider');
-// const infuraKey = "fj4jll3k.....";
+const HDWalletProvider = require('truffle-hdwallet-provider');
+const infuraKey = "${process.env.INFURA_API_KEY}";
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -86,6 +87,13 @@ module.exports = {
       // provider: () => new HDWalletProvider(mnemonic, `https://sokol.poa.network`),
       // network_id: 77,       // Sokol's id
       // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    },
+
+    pilot: {
+      provider: () => new HDWalletProvider(process.env.PILOT_MNEMONIC, process.env.PILOT_RPC),
+      network_id: 232323,
+      gasPrice: 0,   
+      production: false
     },
 
     // Useful for private networks
