@@ -8,6 +8,7 @@ cache:
 install:
   - npm install -g truffle@beta
   - npm install -g ganache-cli
+  - npm install -g coveralls
   - npm install
 script:
   - npm run lint
@@ -19,4 +20,3 @@ script:
   - npm run stop
 after_script:
   - npm run coverage && cat coverage/lcov.info | coveralls
-  - npm run coverage && cat coverage/lcov.info
